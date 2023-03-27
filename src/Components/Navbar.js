@@ -5,6 +5,7 @@ import HomeIcon from '@material-ui/icons/Home';
 import CodeIcon from '@material-ui/icons/Code';
 import SchoolIcon from '@material-ui/icons/School';
 import ContactMailIcon from '@material-ui/icons/ContactMail';
+import DensitySmallIcon from '@mui/icons-material/DensitySmall';
 
 
 function Navbar() {
@@ -21,10 +22,10 @@ function Navbar() {
   return (
     <div>
       <div style={{ position: 'absolute', zIndex: '1',backgroundColor:'grey',height:'100vh',width:'11vw' }}>
-        <button onClick={toggleDrawer(true)} color=''>Open Drawer</button>
+      <DensitySmallIcon onClick={toggleDrawer(true)}/>
       </div>
-      <Drawer variant="temporary" anchor="left" open={isOpen} onClose={toggleDrawer(false)} style={{ zIndex: '2',}}>
-        <List style={{ backgroundColor: 'orange', background: 'cover',backgroundImage: `url(${require('../img/pexels-photo-1181271.jpeg')})`,height:'100vh' }}>
+      <Drawer variant="temporary" anchor="left" open={isOpen} onClose={toggleDrawer(false)} style={{ zIndex: '2',width:'11vw'}}>
+        <List style={{ backgroundColor: 'orange', background: 'cover',backgroundImage: `url(${require('../img/pexels-photo-1181271.jpeg')})`,height:'100vh'}}>
           <ListItem button component={Link} to="/" onClick={toggleDrawer(false)}>
             <ListItemIcon>
               <HomeIcon />

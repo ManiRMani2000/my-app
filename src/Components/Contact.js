@@ -14,11 +14,10 @@ function Contact() {
     justifyContent: 'flex-start',
     minHeight: '100vh',
     marginLeft:'120px'}}>
-      <Typography variant='h4'  color='black' marginRight='485px'><pre>Contact  :</pre></Typography>
+      <Typography variant='h4'  color='black' marginRight='485px'><pre>Contact :</pre></Typography>
       <Typography variant='h4'  color='black' marginRight='65px' ><pre>Email   :manikantarhong@gmail.com</pre></Typography>
       <Typography variant='h4'  color='black' marginRight='308px'><pre>Phone   :7975779143</pre></Typography>
-      <Typography variant='h4'  color='black' marginRight='-20px'><pre>Address :1st main,Sarswatipuram,Mysore</pre></Typography>
-      
+      <Typography variant='h4'  color='black' marginRight='-20px'><pre>Address :1st main,Saraswatipuram,Mysore</pre></Typography>
     </Box>
   )
 }

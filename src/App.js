@@ -19,7 +19,6 @@ function App() {
         <Route path="/Contact" element={<div><NavbarC/><Contact/></div>} />
        </Routes>
        </Router>
-      
     </div>
 
 

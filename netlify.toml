@@ -1,0 +1,12 @@
+[build]
+  command = "npm run build"
+  publish = "build/"
+
+[build.environment]
+  NODE_ENV = "production"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+[build]
+  command = "npm --force install && npm run build"
